@@ -1,0 +1,144 @@
+* {
+padding: 0;
+margin: 0;  
+}
+
+.section1{
+  background-image: url("images/rhcp_logo_8.png"), url("images/sky.jpeg");
+  image-resolution: 1000dpi;
+  background-size: contain, cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+.logo_1{
+  width: 10%;
+  height: auto;
+  cursor: cell;
+}
+
+nav{
+  display:inline-block;
+}
+
+nav ul li{
+  display:inline-block;
+  margin: 5px 20px;
+  position: relative;
+  left: 335px;
+  bottom: 100px;
+  font-size: 30px;
+  font-family: "Bangers" ;
+  color: #89C4E1;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+nav ul{
+  margin: 5px 0 0 0;
+}
+
+
+nav ul li::after{
+  background: pink;
+  content: " ";
+  width: 0%;
+  height: 2px;
+  display: block;
+  transition: 2s;
+  margin: auto;
+}
+
+nav ul li:hover{
+  color: red;
+  transition: 2s;
+}
+
+nav ul li:hover::after{
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.section2{
+  background-image: linear-gradient(180deg, #FF97C1, #FF5858, #E0144C);
+  width: 100vw;
+  height: 100vh;
+}
+
+.section1d{
+  background-image: url("images/płyty_winylowe_2.jpg");
+   width: 100vw;
+   height: 35vh;
+}
+
+.section2d{
+  background: linear-gradient(77deg, #C780FA, #B9E0FF, #E3ACF9, #86E5FF, #F3CCFF, #5BC0F8 );
+  width: auto;
+  height: 177vh; 
+}
+
+.albumy{
+  display: flex;
+  font-family: "Assistant"; 
+}
+
+.okladka{
+  height: 225px;
+  width: 225px;
+}
+
+.album{
+  height: 225px;
+  width: 225px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 30px auto;
+}
+
+.napis_album{
+  color: white;
+  border: solid; 
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.tour_photo_1{
+ height: 75%;
+ width: auto;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ padding-top: 20px;
+}
+
+.platforma{
+ display: inline-block;
+ position: relative;
+ bottom: 5px;
+ left: 13cm;
+ margin: 80px 20px;
+  
+}
+ 
+
+
+
+
+ 
+
+
+ 
+  
+  
+
+  
+
+
+  
+}
